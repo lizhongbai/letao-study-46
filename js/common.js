@@ -29,3 +29,7 @@ $.fn.serializeToJson = function() {
 	})
 	return result;
 }
+
+
+//cokie
+$.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});

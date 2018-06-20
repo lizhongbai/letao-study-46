@@ -21,7 +21,7 @@ $(function() {
 		 	data:result,
 		 	success:function(data) {
 		 		if(data.success) {
-		 			location.href = 'user.html'
+		 			location.href = 'user.html';
 		 		}else{
 		 			alert(data.message);
 		 		}
